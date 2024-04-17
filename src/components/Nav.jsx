@@ -19,7 +19,7 @@ export default function Nav({ setNamePoke, namePokeHandler }) {
           </li>
           <li className="inline">
             <button
-              className="inline py-3 px-3 duration-300 rounded-md cursor-pointer hover:bg-slate-200"
+              className="inline border-2 border-slate-200 py-2.5 px-3 duration-300 rounded-md cursor-pointer hover:bg-slate-200"
               onClick={(e) => namePokeHandler(e)}
             >
               Search
